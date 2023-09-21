@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/main.dir/shellTest.o CMakeFiles/main.dir/stuff.o -o main 

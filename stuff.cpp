@@ -28,6 +28,7 @@ Stuff::Stuff(const Stuff& s)
 
 bool Stuff::operator<(const Stuff& s)
 {
+   Stuff::compareCount++;
    if (a < s.a)
 	return true;
    else if (a == s.a)
@@ -37,7 +38,6 @@ bool Stuff::operator<(const Stuff& s)
 	   else if ((b == s.b) && (c < s.c))
 		return true;
 	}
-   Stuff::compareCount++;
    return false;
 }
 

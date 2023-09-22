@@ -1,12 +1,12 @@
 [
 {
   "directory": "/home/jadon/algos/assignment1/build",
-  "command": "/usr/bin/c++   -g -Wall -Wextra -pedantic -o CMakeFiles/main.dir/shellTest.o -c /home/jadon/algos/assignment1/shellTest.cpp",
+  "command": "/usr/bin/c++   -g -Wall -Wextra -pedantic -o CMakeFiles/main.dir/shellTest.cpp.o -c /home/jadon/algos/assignment1/shellTest.cpp",
   "file": "/home/jadon/algos/assignment1/shellTest.cpp"
 },
 {
   "directory": "/home/jadon/algos/assignment1/build",
-  "command": "/usr/bin/c++   -g -Wall -Wextra -pedantic -o CMakeFiles/main.dir/stuff.o -c /home/jadon/algos/assignment1/stuff.cpp",
+  "command": "/usr/bin/c++   -g -Wall -Wextra -pedantic -o CMakeFiles/main.dir/stuff.cpp.o -c /home/jadon/algos/assignment1/stuff.cpp",
   "file": "/home/jadon/algos/assignment1/stuff.cpp"
 }
 ]

@@ -69,44 +69,44 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/shellTest.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/shellTest.o: ../shellTest.cpp
-CMakeFiles/main.dir/shellTest.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jadon/algos/assignment1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/shellTest.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/shellTest.o -MF CMakeFiles/main.dir/shellTest.o.d -o CMakeFiles/main.dir/shellTest.o -c /home/jadon/algos/assignment1/shellTest.cpp
+CMakeFiles/main.dir/shellTest.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/shellTest.cpp.o: ../shellTest.cpp
+CMakeFiles/main.dir/shellTest.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jadon/algos/assignment1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/shellTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/shellTest.cpp.o -MF CMakeFiles/main.dir/shellTest.cpp.o.d -o CMakeFiles/main.dir/shellTest.cpp.o -c /home/jadon/algos/assignment1/shellTest.cpp
 
-CMakeFiles/main.dir/shellTest.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/shellTest.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jadon/algos/assignment1/shellTest.cpp > CMakeFiles/main.dir/shellTest.i
+CMakeFiles/main.dir/shellTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/shellTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jadon/algos/assignment1/shellTest.cpp > CMakeFiles/main.dir/shellTest.cpp.i
 
-CMakeFiles/main.dir/shellTest.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/shellTest.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jadon/algos/assignment1/shellTest.cpp -o CMakeFiles/main.dir/shellTest.s
+CMakeFiles/main.dir/shellTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/shellTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jadon/algos/assignment1/shellTest.cpp -o CMakeFiles/main.dir/shellTest.cpp.s
 
-CMakeFiles/main.dir/stuff.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/stuff.o: ../stuff.cpp
-CMakeFiles/main.dir/stuff.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jadon/algos/assignment1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/stuff.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/stuff.o -MF CMakeFiles/main.dir/stuff.o.d -o CMakeFiles/main.dir/stuff.o -c /home/jadon/algos/assignment1/stuff.cpp
+CMakeFiles/main.dir/stuff.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/stuff.cpp.o: ../stuff.cpp
+CMakeFiles/main.dir/stuff.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jadon/algos/assignment1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/stuff.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/stuff.cpp.o -MF CMakeFiles/main.dir/stuff.cpp.o.d -o CMakeFiles/main.dir/stuff.cpp.o -c /home/jadon/algos/assignment1/stuff.cpp
 
-CMakeFiles/main.dir/stuff.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/stuff.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jadon/algos/assignment1/stuff.cpp > CMakeFiles/main.dir/stuff.i
+CMakeFiles/main.dir/stuff.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/stuff.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jadon/algos/assignment1/stuff.cpp > CMakeFiles/main.dir/stuff.cpp.i
 
-CMakeFiles/main.dir/stuff.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/stuff.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jadon/algos/assignment1/stuff.cpp -o CMakeFiles/main.dir/stuff.s
+CMakeFiles/main.dir/stuff.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/stuff.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jadon/algos/assignment1/stuff.cpp -o CMakeFiles/main.dir/stuff.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/shellTest.o" \
-"CMakeFiles/main.dir/stuff.o"
+"CMakeFiles/main.dir/shellTest.cpp.o" \
+"CMakeFiles/main.dir/stuff.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main: CMakeFiles/main.dir/shellTest.o
-main: CMakeFiles/main.dir/stuff.o
+main: CMakeFiles/main.dir/shellTest.cpp.o
+main: CMakeFiles/main.dir/stuff.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jadon/algos/assignment1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main"

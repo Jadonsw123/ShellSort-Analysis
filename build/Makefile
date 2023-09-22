@@ -129,35 +129,53 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-# target to build an object file
-shellTest.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/shellTest.o
+shellTest.o: shellTest.cpp.o
 .PHONY : shellTest.o
 
-# target to preprocess a source file
-shellTest.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/shellTest.i
+# target to build an object file
+shellTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/shellTest.cpp.o
+.PHONY : shellTest.cpp.o
+
+shellTest.i: shellTest.cpp.i
 .PHONY : shellTest.i
 
-# target to generate assembly for a file
-shellTest.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/shellTest.s
+# target to preprocess a source file
+shellTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/shellTest.cpp.i
+.PHONY : shellTest.cpp.i
+
+shellTest.s: shellTest.cpp.s
 .PHONY : shellTest.s
 
-# target to build an object file
-stuff.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/stuff.o
+# target to generate assembly for a file
+shellTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/shellTest.cpp.s
+.PHONY : shellTest.cpp.s
+
+stuff.o: stuff.cpp.o
 .PHONY : stuff.o
 
-# target to preprocess a source file
-stuff.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/stuff.i
+# target to build an object file
+stuff.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/stuff.cpp.o
+.PHONY : stuff.cpp.o
+
+stuff.i: stuff.cpp.i
 .PHONY : stuff.i
 
-# target to generate assembly for a file
-stuff.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/stuff.s
+# target to preprocess a source file
+stuff.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/stuff.cpp.i
+.PHONY : stuff.cpp.i
+
+stuff.s: stuff.cpp.s
 .PHONY : stuff.s
+
+# target to generate assembly for a file
+stuff.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/stuff.cpp.s
+.PHONY : stuff.cpp.s
 
 # Help Target
 help:

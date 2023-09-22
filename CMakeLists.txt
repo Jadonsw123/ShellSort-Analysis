@@ -1,4 +1,5 @@
-
+cmake_minimum_required(VERSION 3.22)
+project(Assignment1)
 # show compiler output and enable warnings
 set(CMAKE_VERBOSE_MAKEFILE ON)
 add_compile_options(-Wall -Wextra -pedantic)

@@ -28,7 +28,7 @@ int main()
         // cout << "-----\n";
 
         // uncomment this line when the shell sort is implemented
-        ShellSort(vec, 3);
+        ShellSort(vec, 4);
         
         out<<Stuff::compareCount<<"\n";
         // cout <<  Stuff::compareCount << endl;

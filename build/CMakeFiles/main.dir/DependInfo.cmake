@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jadon/algos/assignment1/shellTest.cpp" "CMakeFiles/main.dir/shellTest.o" "gcc" "CMakeFiles/main.dir/shellTest.o.d"
-  "/home/jadon/algos/assignment1/stuff.cpp" "CMakeFiles/main.dir/stuff.o" "gcc" "CMakeFiles/main.dir/stuff.o.d"
+  "/home/jadon/algos/assignment1/shellTest.cpp" "CMakeFiles/main.dir/shellTest.cpp.o" "gcc" "CMakeFiles/main.dir/shellTest.cpp.o.d"
+  "/home/jadon/algos/assignment1/stuff.cpp" "CMakeFiles/main.dir/stuff.cpp.o" "gcc" "CMakeFiles/main.dir/stuff.cpp.o.d"
   )
 
 # Targets to which this target links.

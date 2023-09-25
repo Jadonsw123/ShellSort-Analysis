@@ -12,7 +12,8 @@ int main()
     int totalCompareCount = 0;
     for(int setNum = 0; setNum <100;setNum++){
         vector<Stuff> vec;
-        int size = 1000;
+        int size = 15000;
+        int type = 4;
 
         for (int i = 0; i < size; i++)
         {
@@ -28,7 +29,7 @@ int main()
         // cout << "-----\n";
 
         // uncomment this line when the shell sort is implemented
-        ShellSort(vec, 4);
+        ShellSort(vec, type);
         
         out<<Stuff::compareCount<<"\n";
         // cout <<  Stuff::compareCount << endl;

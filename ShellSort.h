@@ -32,8 +32,8 @@ void ShellSort(vector<Stuff>& s, int code){
     }else if(code == 4){
         hlist.push_back(1);
         int k = 0;
-        while((pow(4,k+1)+3*exp2(k)+1) < s.size()){
-            hlist.insert(hlist.begin(),(int)(pow(4,k+1)+3*exp2(k)+1));
+        while((4 * pow(2, k + 1) + 3 * pow(2, k) + 1) < s.size()){
+            hlist.insert(hlist.begin(),(int)(4 * pow(2, k + 1) + 3 * pow(2, k) + 1));
             k++;
         }
     }

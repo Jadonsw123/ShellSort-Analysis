@@ -37,11 +37,6 @@ void ShellSort(vector<Stuff>& s, int code){
             k++;
         }
     }
-    // for(auto i : hlist){
-    //     cout<<i<<" ";
-    // }
-
-    // cout<<endl;
 
     long unsigned int incrementNum = 0;
     long unsigned int incrementSize = hlist[0];
@@ -72,5 +67,4 @@ void ShellSort(vector<Stuff>& s, int code){
 
         incrementNum++;
     }
-    // cout<<swaps<<endl;
 }
